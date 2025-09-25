@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\2024202060012\\Downloads\\Exercicio4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{597D83CA-F4A1-4715-9243-7C8253CC4917}|Aula(17-09-2025)\\Aula(17-09-2025).csproj|c:\\users\\2024202060012\\downloads\\exercicio4\\aula(17-09-2025)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{597D83CA-F4A1-4715-9243-7C8253CC4917}|Aula(17-09-2025)\\Aula(17-09-2025).csproj|solutionrelative:aula(17-09-2025)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{597D83CA-F4A1-4715-9243-7C8253CC4917}|Aula(17-09-2025)\\Aula(17-09-2025).csproj|c:\\users\\2024202060012\\downloads\\exercicio4\\aula(17-09-2025)\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{597D83CA-F4A1-4715-9243-7C8253CC4917}|Aula(17-09-2025)\\Aula(17-09-2025).csproj|solutionrelative:aula(17-09-2025)\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597D83CA-F4A1-4715-9243-7C8253CC4917}|Aula(17-09-2025)\\Aula(17-09-2025).csproj|c:\\users\\2024202060012\\downloads\\exercicio4\\aula(17-09-2025)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597D83CA-F4A1-4715-9243-7C8253CC4917}|Aula(17-09-2025)\\Aula(17-09-2025).csproj|solutionrelative:aula(17-09-2025)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\2024202060012\\Downloads\\Exercicio4\\Aula(17-09-2025)\\Program.cs",
               "RelativeDocumentMoniker": "Aula(17-09-2025)\\Program.cs",
               "ToolTip": "C:\\Users\\2024202060012\\Downloads\\Exercicio4\\Aula(17-09-2025)\\Program.cs",
               "RelativeToolTip": "Aula(17-09-2025)\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T00:14:22.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Carro.cs",
               "DocumentMoniker": "C:\\Users\\2024202060012\\Downloads\\Exercicio4\\Aula(17-09-2025)\\Carro.cs",
               "RelativeDocumentMoniker": "Aula(17-09-2025)\\Carro.cs",
               "ToolTip": "C:\\Users\\2024202060012\\Downloads\\Exercicio4\\Aula(17-09-2025)\\Carro.cs",
               "RelativeToolTip": "Aula(17-09-2025)\\Carro.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwC0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T00:14:16.479Z"
+              "WhenOpened": "2025-09-25T00:14:16.479Z",
+              "EditorCaption": ""
             }
           ]
         }

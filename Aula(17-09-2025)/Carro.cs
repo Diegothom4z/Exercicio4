@@ -8,24 +8,57 @@ public class Carro
     public string _modelo;
     public string _placa;
     public string _renavam;
-    public string _chassi;
+    private string _chassi;
 
-    //metodo construtor
-    public Carro (string chassi)
+
+    /*
+public bool ValidarChassi(string chassi)
+{
+    chassi = chassi.ToUpper();
+    if (chassi.Length == 17 && !chassi.Contains("i") && !chassi.Contains("o") && !chassi.Contains("q"))
     {
-        if (ValidarChassi(chassi))
+       return true;
+
+    }
+    throw new ArgumentException("CHASSI INVALIDO!");
+
+
+
+}
+
+*/
+
+    public void SetChassi(string chassi)
+    {
+        chassi = chassi.ToUpper();
+        if (chassi.Length == 17 && !chassi.Contains("i") && !chassi.Contains("o") && !chassi.Contains("q"))
         {
             _chassi = chassi;
+        }
+        else
+        {
+            //lança uma exceção
+            throw new ArgumentException("CHASSI INVALIDO!");
         }
 
     }
 
+    public string GetChassi()
+    {
+        return _chassi;
+    }
+
+
+    //metodo construtor
+    public Carro (string chassi)
+    {
+        SetChassi (chassi);
+    }
+
     public Carro(int id, string marca, string modelo, string placa, string renavam, string chassi)
     {
-        if (ValidarChassi(chassi))
-        {
-            _chassi = chassi;
-        }
+
+        SetChassi(chassi);
 
         _id = id;
         _marca = marca;
@@ -35,17 +68,6 @@ public class Carro
         _chassi = chassi;
     }
 
-    public bool ValidarChassi(string chassi)
-    {
-        chassi = chassi.ToUpper();
-        if (chassi.Length == 17 && !chassi.Contains("i") && !chassi.Contains("o") && !chassi.Contains("q"))
-        {
-           return true;
-
-        }
-        throw new ArgumentException("CHASSI INVALIDO!");
 
 
-
-    }
 }
